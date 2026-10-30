@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --app-bg: #f8fafc;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-secondary-50 text-secondary-900 font-sans antialiased;
+    min-height: 100vh;
+  }
+
+  [dir='rtl'] {
+    font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-3xl shadow-card border border-secondary-100;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-2xl font-semibold
+      transition-all duration-200 active:scale-95 select-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white shadow-soft hover:bg-primary-700
+      hover:shadow-glow;
+  }
+
+  .btn-secondary {
+    @apply btn bg-white text-secondary-700 border border-secondary-200
+      hover:bg-secondary-50;
+  }
+
+  .btn-ghost {
+    @apply btn text-secondary-600 hover:bg-secondary-100;
+  }
+
+  .btn-accent {
+    @apply btn bg-accent-500 text-white hover:bg-accent-600 shadow-soft;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-2xl border border-secondary-200 bg-white
+      text-secondary-900 placeholder:text-secondary-400
+      focus:border-primary-500 focus:ring-2 focus:ring-primary-200
+      transition-all duration-200;
+  }
+
+  .surface-gradient {
+    background: linear-gradient(135deg, #f0fdfa 0%, #f8fafc 50%, #fffbeb 100%);
+  }
+
+  .hero-gradient {
+    background: radial-gradient(ellipse 80% 60% at 50% 0%,
+      rgba(20, 184, 166, 0.12) 0%,
+      rgba(245, 158, 11, 0.06) 50%,
+      transparent 100%);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "family",
+  "title": "People around me",
+  "subtitle": "Describe your family and relationships",
+  "description": { "en": "Build the vocabulary and grammar you need to talk about family." },
+  "cefrLevel": "A1",
+  "lessonIds": ["family-lesson-01"]
+}

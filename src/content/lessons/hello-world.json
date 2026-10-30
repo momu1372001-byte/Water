@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "hello-world",
+  "unitId": "foundations",
+  "title": "Hello, world",
+  "subtitle": "Meet people and start simple conversations",
+  "description": {
+    "en": "Learn essential greetings and introductions for first conversations in English.",
+    "ar": "تعلّم التحيات والتعاريف الأساسية لأول محادثاتك بالإنجليزية.",
+    "fr": "Apprenez les salutations et présentations essentielles pour vos premières conversations en anglais.",
+    "es": "Aprende saludos y presentaciones esenciales para tus primeras conversaciones en inglés.",
+    "de": "Lerne die wichtigsten Begrüßungen und Vorstellungen für deine ersten englischen Gespräche.",
+    "hi": "अपनी पहली अंग्रेज़ी बातचीत के लिए ज़रूरी अभिवादन और परिचय सीखें।"
+  },
+  "topic": "Introductions",
+  "topicId": "introductions",
+  "category": "Everyday English",
+  "order": 1,
+  "icon": "Hand",
+  "estimatedDuration": 15,
+  "cefrLevel": "A1",
+  "objectives": [
+    { "en": "Introduce yourself with confidence", "ar": "قدّم نفسك بثقة", "fr": "Se présenter avec confiance", "es": "Presentarte con confianza", "de": "Dich selbstbewusst vorstellen", "hi": "आत्मविश्वास से अपना परिचय दें" },
+    { "en": "Ask and answer simple questions", "ar": "اطرح وأجب عن أسئلة بسيطة", "fr": "Poser et répondre à des questions simples", "es": "Hacer y responder preguntas sencillas", "de": "Einfache Fragen stellen und beantworten", "hi": "सरल प्रश्न पूछें और उत्तर दें" }
+  ],
+  "prerequisites": [],
+  "vocabulary": [
+    {
+      "word": "hello",
+      "partOfSpeech": "interjection",
+      "phonetic": "/həˈləʊ/",
+      "translations": { "en": "hello", "ar": "مرحبًا", "fr": "bonjour", "es": "hola", "de": "hallo", "hi": "नमस्ते" },
+      "exampleSentence": "Hello, I am Maya.",
+      "exampleTranslation": { "en": "Hello, I am Maya.", "ar": "مرحبًا، أنا مايا.", "fr": "Bonjour, je suis Maya.", "es": "Hola, soy Maya.", "de": "Hallo, ich bin Maya.", "hi": "नमस्ते, मैं माया हूँ।" }
+    },
+    {
+      "word": "name",
+      "partOfSpeech": "noun",
+      "phonetic": "/neɪm/",
+      "translations": { "en": "name", "ar": "اسم", "fr": "nom", "es": "nombre", "de": "Name", "hi": "नाम" },
+      "exampleSentence": "What is your name?",
+      "exampleTranslation": { "en": "What is your name?", "ar": "ما اسمك؟", "fr": "Comment t'appelles-tu ?", "es": "¿Cómo te llamas?", "de": "Wie heißt du?", "hi": "आपका नाम क्या है?" }
+    },
+    {
+      "word": "nice",
+      "partOfSpeech": "adjective",
+      "phonetic": "/naɪs/",
+      "translations": { "en": "pleasant or kind", "ar": "لطيف", "fr": "agréable", "es": "agradable", "de": "nett", "hi": "अच्छा" },
+      "exampleSentence": "Nice to meet you.",
+      "exampleTranslation": { "en": "Nice to meet you.", "ar": "سعيد بلقائك.", "fr": "Ravi de vous rencontrer.", "es": "Mucho gusto.", "de": "Freut mich, dich kennenzulernen.", "hi": "आपसे मिलकर खुशी हुई।" }
+    }
+  ],
+  "grammarNotes": [
+    {
+      "title": "The verb be",
+      "explanation": { "en": "Use am with I and are with you: I am Maya. You are Alex.", "ar": "استخدم am مع I و are مع you.", "fr": "Utilisez am avec I et are avec you.", "es": "Usa am con I y are con you.", "de": "Verwende am mit I und are mit you.", "hi": "I के साथ am और you के साथ are का उपयोग करें।" },
+      "whenToUse": { "en": "Use the verb be to say who you are or how things are.", "ar": "استخدم الفعل be لتقول من أنت أو كيف تكون الأشياء.", "fr": "Utilisez le verbe be pour dire qui vous êtes ou comment sont les choses.", "es": "Usa el verbo be para decir quién eres o cómo son las cosas.", "de": "Verwende das Verb be, um zu sagen, wer du bist oder wie Dinge sind.", "hi": "यह बताने के लिए be क्रिया का उपयोग करें कि आप कौन हैं या चीज़ें कैसी हैं।" },
+      "structure": { "en": "Subject + am/is/are + complement", "ar": "الفاعل + am/is/are + تكملة", "fr": "Sujet + am/is/are + complément", "es": "Sujeto + am/is/are + complemento", "de": "Subjekt + am/is/are + Ergänzung", "hi": "कर्ता + am/is/are + पूरक" },
+      "positiveForm": { "en": "I am Maya. You are Alex.", "ar": "أنا مايا. أنت أليكس.", "fr": "Je suis Maya. Tu es Alex.", "es": "Yo soy Maya. Tú eres Alex.", "de": "Ich bin Maya. Du bist Alex.", "hi": "मैं माया हूँ। आप अलेक्स हैं।" },
+      "negativeForm": { "en": "I am not Maya. You are not Alex.", "ar": "أنا لست مايا. أنت لست أليكس.", "fr": "Je ne suis pas Maya. Tu n'es pas Alex.", "es": "Yo no soy Maya. Tú no eres Alex.", "de": "Ich bin nicht Maya. Du bist nicht Alex.", "hi": "मैं माया नहीं हूँ। आप अलेक्स नहीं हैं।" },
+      "questionForm": { "en": "Am I Maya? Are you Alex?", "ar": "هل أنا مايا؟ هل أنت أليكس؟", "fr": "Suis-je Maya ? Es-tu Alex ?", "es": "¿Soy Maya? ¿Eres Alex?", "de": "Bin ich Maya? Bist du Alex?", "hi": "क्या मैं माया हूँ? क्या आप अलेक्स हैं?" },
+      "commonMistakes": { "en": "Don't say 'I no Maya'. Use 'I am not Maya'.", "ar": "لا تقل 'I no Maya'. قل 'I am not Maya'.", "fr": "Ne dites pas « I no Maya ». Dites « I am not Maya ».", "es": "No digas 'I no Maya'. Di 'I am not Maya'.", "de": "Sage nicht 'I no Maya'. Sage 'I am not Maya'.", "hi": "'I no Maya' मत कहिए। 'I am not Maya' कहिए।" },
+      "tips": { "en": "Contractions are common in speech: I'm, you're, we're, they're.", "ar": "تُستخدم الاختصارات كثيرًا في الكلام: I'm, you're, we're, they're.", "fr": "Les contractions sont courantes à l'oral : I'm, you're, we're, they're.", "es": "Las contracciones son comunes al hablar: I'm, you're, we're, they're.", "de": "Kurzformen sind beim Sprechen üblich: I'm, you're, we're, they're.", "hi": "बोलचाल में संक्षिप्त रूप आम हैं: I'm, you're, we're, they're." },
+      "examples": [
+        { "english": "I am Maya.", "translation": { "en": "I am Maya.", "ar": "أنا مايا.", "fr": "Je suis Maya.", "es": "Soy Maya.", "de": "Ich bin Maya.", "hi": "मैं माया हूँ।" } },
+        { "english": "You are Alex.", "translation": { "en": "You are Alex.", "ar": "أنت أليكس.", "fr": "Tu es Alex.", "es": "Tú eres Alex.", "de": "Du bist Alex.", "hi": "आप अलेक्स हैं।" } }
+      ]
+    }
+  ],
+  "studyCards": [
+    {
+      "kind": "vocabulary",
+      "id": "sc-hello",
+      "word": "hello",
+      "translations": { "en": "hello", "ar": "مرحبًا", "fr": "bonjour", "es": "hola", "de": "hallo", "hi": "नमस्ते" },
+      "partOfSpeech": "interjection",
+      "phonetic": "/həˈləʊ/",
+      "audio": { "tts": { "enabled": true, "rate": 0.9 } },
+      "exampleSentence": "Hello, I am Maya.",
+      "exampleTranslation": { "en": "Hello, I am Maya.", "ar": "مرحبًا، أنا مايا.", "fr": "Bonjour, je suis Maya.", "es": "Hola, soy Maya.", "de": "Hallo, ich bin Maya.", "hi": "नमस्ते, मैं माया हूँ।" },
+      "usageNotes": { "en": "A friendly greeting used any time of day.", "ar": "تحية ودية تُستخدم في أي وقت من اليوم.", "fr": "Une salutation amicale utilisée à tout moment de la journée.", "es": "Un saludo amistoso que se usa en cualquier momento del día.", "de": "Eine freundliche Begrüßung, die jederzeit verwendet wird.", "hi": "दिन के किसी भी समय उपयोग होने वाला दोस्ताना अभिवादन।" },
+      "grammar": {
+        "title": "Greetings",
+        "explanation": { "en": "Hello is the most common English greeting, suitable for casual and formal situations.", "ar": "Hello هي التحية الإنجليزية الأكثر شيوعًا، مناسبة للمواقف غير الرسمية والرسمية.", "fr": "Hello est la salutation anglaise la plus courante, convenant aux situations décontractées et formelles.", "es": "Hello es el saludo inglés más común, adecuado para situaciones informales y formales.", "de": "Hello ist die häufigste englische Begrüßung, geeignet für lockere und formelle Situationen.", "hi": "Hello सबसे आम अंग्रेज़ी अभिवादन है, जो अनौपचारिक और औपचारिक दोनों स्थितियों के लिए उपयुक्त है।" },
+        "whenToUse": { "en": "Use hello when you meet someone or answer the phone.", "ar": "استخدم hello عندما تقابل شخصًا أو تجيب على الهاتف.", "fr": "Utilisez hello lorsque vous rencontrez quelqu'un ou que vous répondez au téléphone.", "es": "Usa hello cuando conozcas a alguien o respondas el teléfono.", "de": "Verwende hello, wenn du jemanden triffst oder ans Telefon gehst.", "hi": "जब आप किसी से मिलें या फ़ोन उठाएँ तो hello का उपयोग करें।" },
+        "tips": { "en": "Hi is more casual; hello works everywhere.", "ar": "Hi أكثر ودية؛ hello تصلح لكل مكان.", "fr": "Hi est plus décontracté ; hello convient partout.", "es": "Hi es más casual; hello sirve para todo.", "de": "Hi ist lockerer; hello passt überall.", "hi": "Hi अधिक अनौपचारिक है; hello हर जगह चलता है।" }
+      },
+      "difficulty": "easy"
+    },
+    {
+      "kind": "vocabulary",
+      "id": "sc-name",
+      "word": "name",
+      "translations": { "en": "name", "ar": "اسم", "fr": "nom", "es": "nombre", "de": "Name", "hi": "नाम" },
+      "partOfSpeech": "noun",
+      "phonetic": "/neɪm/",
+      "audio": { "tts": { "enabled": true, "rate": 0.9 } },
+      "exampleSentence": "What is your name?",
+      "exampleTranslation": { "en": "What is your name?", "ar": "ما اسمك؟", "fr": "Comment t'appelles-tu ?", "es": "¿Cómo te llamas?", "de": "Wie heißt du?", "hi": "आपका नाम क्या है?" },
+      "usageNotes": { "en": "Used to ask about or refer to what someone is called.", "ar": "تُستخدم للسؤال عن أو الإشارة إلى ما يُسمى به الشخص.", "fr": "Utilisé pour demander ou faire référence au nom de quelqu'un.", "es": "Se usa para preguntar o referirse a cómo se llama alguien.", "de": "Wird verwendet, um nach dem Namen einer Person zu fragen oder sich darauf zu beziehen.", "hi": "किसी व्यक्ति के नाम के बारे में पूछने या संदर्भ देने के लिए उपयोग किया जाता है।" },
+      "difficulty": "easy"
+    },
+    {
+      "kind": "vocabulary",
+      "id": "sc-nice",
+      "word": "nice",
+      "translations": { "en": "pleasant or kind", "ar": "لطيف", "fr": "agréable", "es": "agradable", "de": "nett", "hi": "अच्छा" },
+      "partOfSpeech": "adjective",
+      "phonetic": "/naɪs/",
+      "audio": { "tts": { "enabled": true, "rate": 0.9 } },
+      "exampleSentence": "Nice to meet you.",
+      "exampleTranslation": { "en": "Nice to meet you.", "ar": "سعيد بلقائك.", "fr": "Ravi de vous rencontrer.", "es": "Mucho gusto.", "de": "Freut mich, dich kennenzulernen.", "hi": "आपसे मिलकर खुशी हुई।" },
+      "usageNotes": { "en": "Nice to meet you is a polite phrase when you meet someone new.", "ar": "Nice to meet you عبارة مهذبة عند مقابلة شخص جديد.", "fr": "Nice to meet you est une phrase polie quand vous rencontrez quelqu'un de nouveau.", "es": "Nice to meet you es una frase educada al conocer a alguien nuevo.", "de": "Nice to meet you ist eine höfliche Phrase beim Kennenlernen.", "hi": "Nice to meet you किसी नए व्यक्ति से मिलते समय एक विनम्र वाक्यांश है।" },
+      "difficulty": "medium"
+    },
+    {
+      "kind": "grammar",
+      "id": "sc-grammar-be",
+      "front": "The verb be",
+      "back": { "en": "I am. You are.", "ar": "أنا أكون. أنت تكون.", "fr": "Je suis. Tu es.", "es": "Yo soy. Tú eres.", "de": "Ich bin. Du bist.", "hi": "मैं हूँ। आप हैं।" },
+      "grammar": {
+        "title": "The verb be",
+        "explanation": { "en": "Use am with I and are with you.", "ar": "استخدم am مع I و are مع you.", "fr": "Utilisez am avec I et are avec you.", "es": "Usa am con I y are con you.", "de": "Verwende am mit I und are mit you.", "hi": "I के साथ am और you के साथ are का उपयोग करें।" },
+        "positiveForm": { "en": "I am. You are.", "ar": "أنا أكون. أنت تكون.", "fr": "Je suis. Tu es.", "es": "Yo soy. Tú eres.", "de": "Ich bin. Du bist.", "hi": "मैं हूँ। आप हैं।" },
+        "negativeForm": { "en": "I am not. You are not.", "ar": "أنا لست. أنت لست.", "fr": "Je ne suis pas. Tu n'es pas.", "es": "Yo no soy. Tú no eres.", "de": "Ich bin nicht. Du bist nicht.", "hi": "मैं नहीं हूँ। आप नहीं हैं।" },
+        "questionForm": { "en": "Am I? Are you?", "ar": "هل أنا؟ هل أنت؟", "fr": "Suis-je ? Es-tu ?", "es": "¿Soy yo? ¿Eres tú?", "de": "Bin ich? Bist du?", "hi": "क्या मैं? क्या आप?" },
+        "examples": [
+          { "english": "I am Maya.", "translation": { "en": "I am Maya.", "ar": "أنا مايا.", "fr": "Je suis Maya.", "es": "Soy Maya.", "de": "Ich bin Maya.", "hi": "मैं माया हूँ।" } }
+        ]
+      },
+      "difficulty": "medium"
+    }
+  ],
+  "questions": [
+    { "id": "hello-mc", "type": "multiple_choice", "prompt": { "en": "Choose the English word for مرحبًا", "ar": "اختر الكلمة الإنجليزية لـ مرحبًا", "fr": "Choisissez le mot anglais pour مرحبًا", "es": "Elige la palabra inglesa para مرحبًا", "de": "Wähle das englische Wort für مرحبًا", "hi": "مرحبا के लिए अंग्रेजी शब्द चुनें" }, "options": ["hello", "name", "nice"], "correctIndex": 0, "feedback": { "correct": { "en": "A warm greeting.", "ar": "تحية دافئة." }, "incorrect": { "en": "Try the word we use to greet someone.", "ar": "حاول اختيار كلمة التحية." } }, "difficulty": "easy", "skill": "vocabulary" },
+    { "id": "name-fill", "type": "fill_blank", "prompt": { "en": "Complete the question", "ar": "أكمل السؤال", "fr": "Complétez la question", "es": "Completa la pregunta", "de": "Vervollständige die Frage", "hi": "प्रश्न पूरा करें" }, "sentenceTemplate": "What is your ___?", "acceptableAnswers": ["name"], "hint": { "en": "It identifies a person.", "ar": "إنه يحدد هوية الشخص." }, "difficulty": "easy", "skill": "grammar" },
+    { "id": "be-true", "type": "true_false", "prompt": { "en": "Is this sentence correct?", "ar": "هل هذه الجملة صحيحة؟", "fr": "Cette phrase est-elle correcte ?", "es": "¿Es correcta esta frase?", "de": "Ist dieser Satz richtig?", "hi": "क्या यह वाक्य सही है?" }, "statement": "I am Maya.", "isTrue": true, "difficulty": "easy", "skill": "grammar" },
+    { "id": "order-hello", "type": "order_words", "prompt": { "en": "Build the sentence", "ar": "كوّن الجملة", "fr": "Construisez la phrase", "es": "Forma la frase", "de": "Bilde den Satz", "hi": "वाक्य बनाएँ" }, "shuffled": ["you", "Nice", "meet", "to"], "correctOrder": ["Nice", "to", "meet", "you"], "difficulty": "medium", "skill": "grammar" },
+    { "id": "nice-mc", "type": "multiple_choice", "prompt": { "en": "What does nice mean here?", "ar": "ماذا تعني nice هنا؟", "fr": "Que signifie nice ici ?", "es": "¿Qué significa nice aquí?", "de": "Was bedeutet nice hier?", "hi": "यहाँ nice का क्या अर्थ है?" }, "options": ["pleasant", "late", "hungry"], "correctIndex": 0, "difficulty": "medium", "skill": "vocabulary" },
+    { "id": "spell-hello", "type": "spell_word", "prompt": { "en": "Spell the greeting", "ar": "اكتب تهجئة التحية", "fr": "Épelez la salutation", "es": "Deletrea el saludo", "de": "Buchstabiere die Begrüßung", "hi": "अभिवादन की वर्तनी लिखें" }, "targetWord": "hello", "difficulty": "easy", "skill": "spelling" }
+  ],
+  "completionRequirements": { "minScorePercent": 70, "requireAllQuestions": true },
+  "tts": { "enabled": true, "rate": 0.9 }
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "family-lesson-01",
+  "unitId": "family",
+  "topicId": "family-members",
+  "title": "My family",
+  "subtitle": "Talk about the people closest to you",
+  "description": { "en": "Learn useful family words and the verb have to describe the people in your life." },
+  "topic": "Family members",
+  "category": "Everyday English",
+  "cefrLevel": "A1",
+  "order": 1,
+  "icon": "Users",
+  "estimatedDuration": 20,
+  "objectives": [
+    { "en": "Name common family members" },
+    { "en": "Describe who you have in your family" }
+  ],
+  "prerequisites": [],
+  "vocabulary": [
+    { "word": "mother", "partOfSpeech": "noun", "phonetic": "/ˈmʌðə(r)/", "translations": { "en": "mother", "ar": "أم", "fr": "mère", "es": "madre", "de": "Mutter", "hi": "माँ" }, "exampleSentence": "My mother is a teacher.", "exampleTranslation": { "en": "My mother is a teacher." } },
+    { "word": "brother", "partOfSpeech": "noun", "phonetic": "/ˈbrʌðə(r)/", "translations": { "en": "brother", "ar": "أخ", "fr": "frère", "es": "hermano", "de": "Bruder", "hi": "भाई" }, "exampleSentence": "I have one brother.", "exampleTranslation": { "en": "I have one brother." } },
+    { "word": "daughter", "partOfSpeech": "noun", "phonetic": "/ˈdɔːtə(r)/", "translations": { "en": "daughter", "ar": "ابنة", "fr": "fille", "es": "hija", "de": "Tochter", "hi": "बेटी" }, "exampleSentence": "Their daughter is five.", "exampleTranslation": { "en": "Their daughter is five." } }
+  ],
+  "grammarNotes": [],
+  "studyCards": [
+    {
+      "kind": "vocabulary",
+      "id": "family-mother",
+      "word": "mother",
+      "translations": { "en": "mother", "ar": "أم", "fr": "mère", "es": "madre", "de": "Mutter", "hi": "माँ" },
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌðə(r)/",
+      "imagePath": "https://images.pexels.com/photos/7880613/pexels-photo-7880613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAlt": "A mother and daughter holding hands outdoors",
+      "audio": { "tts": { "enabled": true, "rate": 0.9 } },
+      "exampleSentence": "My mother is a teacher.",
+      "exampleTranslation": { "en": "My mother is a teacher.", "ar": "أمي معلمة." },
+      "usageNotes": { "en": "Mother is slightly more formal than mom." },
+      "difficulty": "easy"
+    },
+    {
+      "kind": "vocabulary",
+      "id": "family-brother",
+      "word": "brother",
+      "translations": { "en": "brother", "ar": "أخ", "fr": "frère", "es": "hermano", "de": "Bruder", "hi": "भाई" },
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbrʌðə(r)/",
+      "imagePath": "https://images.pexels.com/photos/8550730/pexels-photo-8550730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAlt": "A father and teenage son posing together",
+      "audio": { "tts": { "enabled": true, "rate": 0.9 } },
+      "exampleSentence": "I have one brother.",
+      "exampleTranslation": { "en": "I have one brother.", "ar": "لدي أخ واحد." },
+      "usageNotes": { "en": "Use brother for a male sibling." },
+      "difficulty": "easy"
+    },
+    {
+      "kind": "vocabulary",
+      "id": "family-daughter",
+      "word": "daughter",
+      "translations": { "en": "daughter", "ar": "ابنة", "fr": "fille", "es": "hija", "de": "Tochter", "hi": "बेटी" },
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɔːtə(r)/",
+      "imagePath": "https://images.pexels.com/photos/39820785/pexels-photo-39820785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "imageAlt": "A joyful family embracing outdoors",
+      "audio": { "tts": { "enabled": true, "rate": 0.9 } },
+      "exampleSentence": "Their daughter is five.",
+      "exampleTranslation": { "en": "Their daughter is five.", "ar": "ابنتهما عمرها خمس سنوات." },
+      "grammar": {
+        "title": "Possessive family descriptions",
+        "explanation": { "en": "Use my, your, his, her, our, or their before a family word to show who the person belongs to." },
+        "whenToUse": { "en": "Use these words when describing a relationship or ownership." },
+        "structure": { "en": "possessive word + family member" },
+        "positiveForm": { "en": "My daughter is five." },
+        "negativeForm": { "en": "Their daughter is not five." },
+        "questionForm": { "en": "Is their daughter five?" },
+        "exceptions": { "en": "His is used for a male person and her for a female person." },
+        "commonMistakes": { "en": "Do not add an apostrophe to my, your, his, her, our, or their." },
+        "tips": { "en": "Say the possessive word clearly before the family word." },
+        "examples": [{ "english": "Her daughter is five.", "translation": { "en": "Her daughter is five.", "ar": "ابنتها عمرها خمس سنوات." } }]
+      },
+      "difficulty": "medium"
+    }
+  ],
+  "questions": [
+    { "id": "family-mother-mc", "type": "multiple_choice", "prompt": { "en": "Choose the word for أم" }, "options": ["mother", "brother", "daughter"], "correctIndex": 0, "difficulty": "easy", "skill": "vocabulary", "points": 10 },
+    { "id": "family-have-fill", "type": "fill_blank", "prompt": { "en": "Complete the sentence" }, "sentenceTemplate": "I ___ one brother.", "acceptableAnswers": ["have"], "difficulty": "easy", "skill": "grammar", "points": 10 },
+    { "id": "family-order", "type": "order_words", "prompt": { "en": "Build the sentence" }, "shuffled": ["daughter", "Her", "five", "is"], "correctOrder": ["Her", "daughter", "is", "five"], "difficulty": "medium", "skill": "grammar", "points": 10 }
+  ],
+  "completionRequirements": { "minScorePercent": 70, "requireAllQuestions": true },
+  "tts": { "enabled": true, "rate": 0.9 },
+  "metadata": { "author": "Lingua", "theme": "relationships" }
+}

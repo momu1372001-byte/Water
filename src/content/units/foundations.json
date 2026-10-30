@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "foundations",
+  "title": "English foundations",
+  "subtitle": "Small conversations, real confidence",
+  "description": { "en": "Build the everyday English you need to start speaking.", "ar": "ابنِ الإنجليزية اليومية التي تحتاجها لبدء التحدث.", "fr": "Construisez l'anglais quotidien dont vous avez besoin pour commencer à parler.", "es": "Construye el inglés cotidiano que necesitas para empezar a hablar.", "de": "Baue das Alltagsenglisch auf, das du zum Sprechen brauchst.", "hi": "बोलना शुरू करने के लिए ज़रूरी रोज़मर्रा की अंग्रेज़ी बनाएँ।" },
+  "cefrLevel": "A1",
+  "lessonIds": ["hello-world"]
+}
